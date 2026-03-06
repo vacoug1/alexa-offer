@@ -209,7 +209,7 @@ export const config = {
     closingLine: "If you want the kind of product role where your taste, your strategy, and your decisions compound into real health outcomes for real people — this is it.",
     primaryButton: {
       label: "Yes. Let's do this.",
-      href: "mailto:jared.pelo@gmail.com?subject=Let's%20do%20this%20%E2%80%94%20Head%20of%20Product&body=Jared%2C%0A%0AI%20loved%20the%20offer%20page.%20Let's%20talk.%0A%0AAlexa",
+      href: "mailto:jared.pelo@thrivebetter.com?subject=Let's%20do%20this%20%E2%80%94%20Head%20of%20Product&body=Jared%2C%0A%0AI%20loved%20the%20offer%20page.%20Let's%20talk.%0A%0AAlexa",
     },
     secondaryButton: {
       label: "Let's talk it through",
