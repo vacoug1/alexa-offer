@@ -217,7 +217,7 @@ export const config = {
     },
     signature: {
       name: "Jared Pelo, MD",
-      title: "Founder & CMO, Thrive",
+      title: "Founder & CEO, Thrive",
     },
     ps: "We built this page instead of sending a PDF. That should tell you something about how we think about product.",
   },
