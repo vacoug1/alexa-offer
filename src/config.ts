@@ -157,7 +157,7 @@ export const config = {
     {
       label: "Shipping cadence",
       description: "Daily deploys.",
-      example: "We went from idea to shipped GLP-1 onboarding flow in 11 days.",
+      example: "Help us define our shipping rituals.",
     },
     {
       label: "Learning loops",
@@ -193,7 +193,7 @@ export const config = {
     },
     compensation: {
       base: "Details in your offer email",
-      details: "Performance bonus and equity participation details in your offer email.",
+      details: "Details in your offer email",
     },
     benefits: [
       "Comprehensive health, dental, and vision",
@@ -223,7 +223,7 @@ export const config = {
   },
 
   footer: {
-    legalNote: "This is a friendly offer summary, not a legal contract. Final details in formal paperwork.",
+    legalNote: "Reply to your email to formally accept the job offer.",
     easterEgg: "Outcome > Output",
     companyName: "thrivebetter.com",
   },
