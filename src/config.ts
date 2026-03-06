@@ -213,7 +213,7 @@ export const config = {
     },
     secondaryButton: {
       label: "Let's talk it through",
-      href: "https://calendly.com/jared-thrive/30min",
+      href: "https://outlook.office.com/bookwithme/user/a9ade553f2c047dfa664338d3b55e1f0@bionichealth.com/meetingtype/tApdbvSg5kK9vJukhIqnVA2?bookingcode=cdba1ba7-872d-4f30-826d-ef45b8c6aa74&anonymous&ismsaljsauthenabled&ep=mLinkFromTile",
     },
     signature: {
       name: "Jared Pelo, MD",
