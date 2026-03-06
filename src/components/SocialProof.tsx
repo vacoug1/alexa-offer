@@ -21,7 +21,7 @@ export function SocialProof() {
             What people say
           </h2>
           <p className="text-charcoal/50">
-            Notes from inside the company
+            {config.quotesSubtitle}
           </p>
         </motion.div>
 

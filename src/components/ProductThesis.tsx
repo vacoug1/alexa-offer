@@ -112,12 +112,14 @@ function PillarCard({ pillar, index, isExpanded, onToggle, isInView, reducedMoti
                 ))}
               </ul>
 
-              <div className="bg-forest/5 rounded-xl p-4">
-                <p className="text-forest/80 italic text-sm">
-                  <span className="text-gold mr-2">⚡</span>
-                  {pillar.hardTruth}
-                </p>
-              </div>
+              {pillar.hardTruth && (
+                <div className="bg-forest/5 rounded-xl p-4">
+                  <p className="text-forest/80 italic text-sm">
+                    <span className="text-gold mr-2">⚡</span>
+                    {pillar.hardTruth}
+                  </p>
+                </div>
+              )}
             </motion.div>
           )}
         </AnimatePresence>

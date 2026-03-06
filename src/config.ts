@@ -20,12 +20,12 @@ export const config = {
       {
         phase: "The early chapter",
         title: "Scrappy and learning fast",
-        description: "A physician-founder who watched his brother-in-law die from a heart attack nobody saw coming. An ER doctor who got tired of treating symptoms and started asking: what if we caught this stuff years earlier? That frustration became Bionic Health — a telehealth company built on a big thesis about preventive medicine.",
+        description: "A physician and AI founder started this company. Their frustration became Bionic Health — a telehealth company built on a big thesis about saving lives with preventative medicine.",
       },
       {
         phase: "The shift",
         title: "Clarity hit",
-        description: "We partnered with OrangeTheory, F45, and Anytime Fitness. We built an AI health assistant. We assembled an advisory board from Harvard, Duke, Yale, and Microsoft. The product expanded from weight loss into hormone therapy, biomarker tracking, and a full healthspan program. The ambition outgrew the name.",
+        description: "We partnered with ROR Marketing and Crunch Fitness, O2 Fitness, and New York Sports Club. The product expanded from longevity care into weight loss and hormone therapy, with full healthspan programming to come. The ambition outgrew the name.",
       },
       {
         phase: "Now",
@@ -54,27 +54,27 @@ export const config = {
         "We win with a care team model no single-product competitor can replicate.",
         "We don't compete on price with commodity telehealth — we compete on outcomes.",
       ],
-      hardTruth: "If we can't measure the outcome, we don't ship the feature.",
+      hardTruth: "",
     },
     {
       title: "Execution",
-      summary: "Shipping cadence, instrumentation, iteration",
+      summary: "Speed, coordination, iteration",
       points: [
-        "Weekly deploys. Bi-weekly sprint reviews with clinical + engineering + product.",
-        "Every feature ships with success criteria defined before the first line of code.",
-        "Product decisions driven by data, not opinions.",
+        "Daily deploys. We move fast and fix things faster.",
+        "Weekly coordination between clinical, engineering, and product teams.",
+        "Product is never the bottleneck. We make decisions and ship.",
       ],
       hardTruth: "No roadmap survives contact with customer truth. We adapt fast.",
     },
     {
       title: "Craft",
-      summary: "Taste, narrative, ruthless prioritization",
+      summary: "Taste, narrative, member obsession",
       points: [
         "The member experience should feel designed by someone who cares about people, not just conversion.",
         "Copy, interaction, and clinical flow are all product decisions. No orphan experiences.",
-        "We say no to 90% of ideas so the 10% ship excellently.",
+        "We make it so physicians can do what's most important: connect with their members. We offload the rest.",
       ],
-      hardTruth: "No dashboards without decisions. No features without follow-through.",
+      hardTruth: "Members should understand what they need to do each day to live a healthier, happier, longer life.",
     },
   ],
 
@@ -113,33 +113,33 @@ export const config = {
       title: "Listen, map, diagnose",
       outcomes: [
         "Complete onboarding as a Thrive member yourself. Experience every touchpoint.",
-        "Shadow 10+ member calls and 5+ physician visits.",
+        "Shadow some member calls and some physician visits.",
         "Deliver a written product assessment: what's working, what's broken, what's missing.",
       ],
-      meetings: "Weekly 1:1 with Jared (founder/CMO), intro sessions with every team lead.",
+      meetings: "Weekly 1:1 with Jared, intro sessions with every team member.",
       metric: "Completion of product assessment with prioritized opportunity map.",
     },
     {
       phase: "60 days",
       title: "Align, prioritize, ship one thing",
       outcomes: [
-        "Publish a 90-day roadmap with clear bets, sequencing, and success criteria.",
-        "Ship one high-impact improvement (likely the onboarding/scheduling flow).",
-        "Establish sprint rituals and cross-functional review cadence.",
+        "Publish a roadmap with clear bets and sequencing.",
+        "Ship one high-impact improvement that you have owned from definition to deployment to acceptance criteria.",
+        "Set up your product framework.",
       ],
-      meetings: "Bi-weekly product review, monthly business review with leadership.",
-      metric: "Measurable improvement in onboarding conversion from ~20% baseline.",
+      meetings: "You define these.",
+      metric: "You define this.",
     },
     {
       phase: "90 days",
       title: "Own the system, accelerate",
       outcomes: [
-        "ThriveBetter Score V1 shipped in-app with member-facing visualization.",
-        "Analytics instrumentation live across core flows.",
-        "Product team operating rhythm running without daily founder input.",
+        "Product team operating rhythm running smoothly.",
+        "What else would you add?",
+        "What new metrics would you track?",
       ],
-      meetings: "Quarterly planning session, first board-level product update (you present).",
-      metric: "Member engagement with health score + NPS movement.",
+      meetings: "You define these.",
+      metric: "You define this.",
     },
   ],
 
@@ -147,25 +147,25 @@ export const config = {
     {
       label: "Customer truth",
       description: "Every product decision starts with member evidence — calls, data, feedback. Not stakeholder opinions.",
-      example: "We review member recordings in every sprint planning.",
+      example: "Help us define how we capture and use this.",
     },
     {
       label: "Roadmap discipline",
-      description: "The roadmap is a living document with explicit bets, not a wish list. Every item has a success metric and a kill criteria.",
-      example: "If it doesn't move its target in 4 weeks, we cut or iterate.",
+      description: "The roadmap lives within Linear. We move fast, we make decisions, we make sure product is never the bottleneck.",
+      example: "Help us define our roadmap process.",
     },
     {
       label: "Shipping cadence",
-      description: "Weekly deploys. Bi-weekly demos. Monthly business reviews.",
+      description: "Daily deploys.",
       example: "We went from idea to shipped GLP-1 onboarding flow in 11 days.",
     },
     {
       label: "Learning loops",
       description: "We don't celebrate launches. We celebrate learning.",
-      example: "Every shipped feature gets a 2-week retro with real data.",
+      example: "Help us define how we measure and learn.",
     },
   ],
-  operatingSystemTagline: "We don't ship output. We ship outcomes.",
+  operatingSystemTagline: "Help us define our operating system.",
 
   quotes: [
     {
@@ -179,11 +179,12 @@ export const config = {
       role: "Thrive member",
     },
     {
-      text: "Most health tech is built by people who've never been in a clinic. This team has a physician-founder who still sees patients. That shows in the product.",
+      text: "Most health tech is built by people who never talk to the doctor or the patient. This product team lives and breathes the patient and doctor experience.",
       author: "Advisor",
       role: "Medical Advisory Board",
     },
   ],
+  quotesSubtitle: "Possible quotes from the future",
 
   offer: {
     role: {
@@ -191,16 +192,15 @@ export const config = {
       description: "You own the entire product surface, from vision to shipped feature. This isn't a PM role that reports to a committee.",
     },
     compensation: {
-      base: "$XXX,XXX",
-      details: "Performance bonus and equity participation — details in formal offer.",
+      base: "Details in your offer email",
+      details: "Performance bonus and equity participation details in your offer email.",
     },
     benefits: [
       "Comprehensive health, dental, and vision",
       "401(k) with company match",
       "Flexible PTO",
-      "Remote-first with Durham co-working",
-      "Learning & development budget",
-      "Home office stipend",
+      "In-office flexible working",
+      "Opportunities to constantly upskill",
     ],
     mission: "1 in 4 Thrive members uncover a serious health risk they didn't know about. That's what your product decisions protect.",
   },
@@ -209,7 +209,7 @@ export const config = {
     closingLine: "If you want the kind of product role where your taste, your strategy, and your decisions compound into real health outcomes for real people — this is it.",
     primaryButton: {
       label: "Yes. Let's do this.",
-      href: "mailto:jared@thrivebetter.com?subject=Let's%20do%20this%20%E2%80%94%20Head%20of%20Product&body=Jared%2C%0A%0AI%20loved%20the%20offer%20page.%20Let's%20talk.%0A%0AAlexa",
+      href: "mailto:jared.pelo@gmail.com?subject=Let's%20do%20this%20%E2%80%94%20Head%20of%20Product&body=Jared%2C%0A%0AI%20loved%20the%20offer%20page.%20Let's%20talk.%0A%0AAlexa",
     },
     secondaryButton: {
       label: "Let's talk it through",
@@ -225,5 +225,6 @@ export const config = {
   footer: {
     legalNote: "This is a friendly offer summary, not a legal contract. Final details in formal paperwork.",
     easterEgg: "Outcome > Output",
+    companyName: "thrivebetter.com",
   },
 }

@@ -21,7 +21,7 @@ export function OperatingSystem() {
             {config.operatingSystemTagline}
           </h2>
           <p className="text-cream/50 text-lg">
-            How we actually work
+            Here's where we are — and where we need you
           </p>
         </motion.div>
 

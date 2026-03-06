@@ -36,7 +36,7 @@ export function Footer() {
             <span className="font-medium text-forest">Thrive</span>
           </p>
           <p className="text-charcoal/50 text-sm">
-            Base: {config.offer.compensation.base} • {config.offer.compensation.details}
+            {config.offer.compensation.base}
           </p>
         </div>
 
@@ -49,7 +49,7 @@ export function Footer() {
         <div className="flex items-center justify-center gap-4 text-sm text-charcoal/50">
           <span className="font-serif text-xl text-forest">Thrive</span>
           <span>•</span>
-          <span>© 2025 Thrive Wellness</span>
+          <span>© 2025 {config.footer.companyName}</span>
           <span>•</span>
 
           {/* Easter egg button */}
