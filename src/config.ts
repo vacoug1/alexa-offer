@@ -197,7 +197,7 @@ export const config = {
     },
     benefits: [
       "Comprehensive health, dental, and vision",
-      "401(k) with company match",
+      "401(k)",
       "Flexible PTO",
       "In-office flexible working",
       "Opportunities to constantly upskill",
